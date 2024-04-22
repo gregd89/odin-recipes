@@ -1,0 +1,9 @@
+/* Styles.css */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ingredients {
+    font-style: italic;
+}
