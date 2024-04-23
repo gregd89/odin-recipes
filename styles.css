@@ -7,3 +7,21 @@ body {
 .ingredients {
     font-style: italic;
 }
+
+/* Sets styling for the recipe description, bg colour with border */
+.description {
+    background-color: bisque;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    border: 2px solid black;
+}
+
+.nav {
+    font-size: 17px;
+}
+
+.nav a:hover{
+font-weight: bold;
+}
