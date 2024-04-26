@@ -4,6 +4,12 @@ body {
     font-family: 'Courier New', Courier, monospace;
     max-width: 800px;
     margin: auto;
+
+}
+
+h1 {
+    margin:auto;
+
 }
 
 .ingredients {
@@ -23,12 +29,22 @@ body {
 .nav {
     font-size: 17px;
     list-style: none;
+    display: flex;
+    padding-left: 0%;
+    margin-top: auto;
 }
 
-.nav li {
-    display: inline;
+.nav a{
+    background-color: bisque;
+    color: black;
+    margin-right: 0.5em;
+    padding: 1em 2em;
+    display: inline-block;
+    text-decoration: none;
+
 }
 
 .nav a:hover{
-font-weight: bold;
-}
+    font-weight: bold;
+    background-color: rgb(224, 197, 164);
+    }
